@@ -1,5 +1,6 @@
 .features__list {
   @include flexCentered(flex, null, null);
+  @extend %list--style;
 }
 
 .features__item {

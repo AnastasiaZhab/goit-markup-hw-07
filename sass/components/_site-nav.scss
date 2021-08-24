@@ -3,6 +3,7 @@
 }
 
 .site-nav__list {
+  @extend %list--style;
   display: flex;
   margin-left: 93px;
   padding-left: 0;
@@ -21,6 +22,8 @@
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
+  text-decoration: none;
+
   @include font(Roboto, 14px, 500, 0.02em, 1.143, $primary-text-color);
   @include transition(
     color,
@@ -33,5 +36,22 @@
   &:hover,
   &:focus {
     color: $accent-color;
+  }
+
+  &--current {
+    color: $accent-color;
+  }
+
+  &--current::after {
+    content: "";
+
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    display: block;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: $accent-color;
   }
 }

@@ -1,5 +1,6 @@
 @import "./utils/variables";
 @import "./base/normalize";
+@import "./base/body";
 @import "./utils/placeholders";
 @import "./utils/mixin";
 @import "./components/container";
@@ -17,7 +18,13 @@
 @import "./components/social";
 @import "./components/regular-client";
 @import "./components/networks";
-@import "./components/list--style";
 @import "./components/footer";
 @import "./components/contacts";
 @import "./components/join";
+@import "./components/subscribe";
+@import "./components/backdrop";
+@import "./components/modal";
+@import "./components/form";
+@import "./components/checkbox";
+@import "./components/portfolio-nav";
+@import "./components/portfolio";

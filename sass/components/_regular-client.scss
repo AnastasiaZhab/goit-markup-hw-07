@@ -24,9 +24,8 @@
   width: 170px;
   height: 92px;
 
-  border: 1px solid var(--social);
+  border: 1px solid $social;
   border-radius: 4px;
-  cursor: pointer;
 
   @include transition(
     border-color,

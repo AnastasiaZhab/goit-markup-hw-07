@@ -1,6 +1,7 @@
 .subject {
   display: flex;
   padding-left: 0;
+  @extend %list--style;
 }
 
 .subject__item {
