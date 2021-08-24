@@ -9,6 +9,12 @@ $background-footer-color: #2f303a;
 $portfolio-item-hover: #eee;
 $social: #afb1b8;
 $overley: rgba(33, 150, 243, 0.9);
+$subject-overley: rgba(47, 48, 58, 0.8);
+$footer-contacts: rgba(255, 255, 255, 0.6);
+$join-social-link: rgba(255, 255, 255, 0.1);
 
-$primary_font: "Roboto", sans-serif;
+$primary-font: "Roboto", sans-serif;
 $secondary-font: "Raleway", sans-serif;
+
+$transition-duration: 250ms;
+$transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);

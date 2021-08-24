@@ -1,0 +1,23 @@
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+
+  &--grey {
+    background-color: $portfolio-button;
+  }
+}
+
+.section__subtitle {
+  text-align: center;
+  @include font($primary-font, 36px, bold, 0.03em, 1.167, $primary-text-color);
+  margin-bottom: 50px;
+}
+
+.subject__item {
+  width: 370px;
+  height: 294px;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
