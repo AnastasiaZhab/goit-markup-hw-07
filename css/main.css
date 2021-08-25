@@ -1117,6 +1117,7 @@ body {
   width: 30px;
   height: 30px;
   border-radius: 15px;
+  border-style: solid;
   border-color: rgba(0, 0, 0, 0.1);
   background-color: #fff;
   -webkit-transition-property: border-color;
